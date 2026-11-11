@@ -1,0 +1,44 @@
+---
+layout: default
+title: Túraútmutatók
+lang: hu
+alt_url: /
+description: Réka túraútmutatói, mindegyik saját tapasztalat alapján.
+---
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+{% assign guides = site.guides | where: "lang", page.lang | sort: "order" %}
+<section class="home-hero">
+  <div class="wrap home-hero-inner">
+    <div class="home-hero-text">
+      <p class="eyebrow">Réka · épp Dél-Amerikában utazom</p>
+      <h1 class="home-title">Minden, amit jó lett volna tudni indulás előtt</h1>
+      <p class="lede">Őszinte, gyakorlatias útmutatók és történetek az utazásaimról. Igyekeztem összeszedni minden infót, hogy neked már ne kelljen :)</p>
+    </div>
+    <figure class="home-hero-photo">
+      <img src="{{ '/assets/img/hero-cappadocia.jpg' | relative_url }}" alt="Hőlégballonok Kappadókia sziklaformációi fölött napfelkeltekor" width="964" height="1458">
+      <figcaption>Kappadókia, Törökország · napfelkelte</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="home-guides" aria-labelledby="guides-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="section-title" id="guides-title">Útmutatók</h2>
+    </div>
+    <div class="card-grid">
+      {% for guide in guides %}{% include guide-card.html %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="home-about" id="about-me" aria-labelledby="about-title">
+  <div class="wrap about-inner about-inner--text">
+    <div class="about-text">
+      <h2 class="section-title" id="about-title">Szia, Réka vagyok</h2>
+      <p>Magyarországon, Budapesten születtem és nőttem fel, a szüleim pedig egészen kicsi korom óta vittek túrázni. Az egyetem és a munka egy időre elszakított a természettől, de néhány éve visszataláltam a hegyekhez és az utazáshoz, és azóta igyekszem az életem minden szabad percét ezzel tölteni. Idén ezt odáig vittem, hogy felmondtam a munkahelyemen és Dél-Amerikában utaztam, határidő nélkül.</p>
+      <p>Én az a típusú ember vagyok, aki minden utazást alapos kutatással kezd, úgyhogy pontosan tudom, mennyire jól jöhetnek valakinek azok a tapasztalatok, amiket itt megosztok. Ez az oldal minden olyan A-típusú kalandornak szól, aki szereti pontosan tudni, mire számíthat :)</p>
+      <p><a class="text-link" href="{{ '/hu/rolam/' | relative_url }}">Bővebben rólam</a></p>
+    </div>
+  </div>
+</section>

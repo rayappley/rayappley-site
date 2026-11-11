@@ -1,0 +1,21 @@
+<svg class="route-map" viewBox="0 0 640 400" role="img" aria-labelledby="wtrek-route-title">
+<title id="wtrek-route-title">Schematic map of our W Trek route in Torres del Paine, east to west: Central, Base de las Torres, Francés, Mirador Británico, Paine Grande, Grey and the catamaran to Pudeto</title>
+<ellipse class="route-water" cx="45" cy="150" rx="26" ry="100"/>
+<ellipse class="route-water" cx="205" cy="335" rx="78" ry="30"/>
+<ellipse class="route-water" cx="465" cy="362" rx="118" ry="22"/>
+<text class="route-water-label" x="45" y="36" text-anchor="middle">Lago Grey</text>
+<text class="route-water-label" x="168" y="358" text-anchor="middle">Lago Pehoé</text>
+<text class="route-water-label" x="470" y="377" text-anchor="middle">Lago Nordenskjöld</text>
+<path class="route-line" d="M95 70 Q110 180 150 270 Q225 290 300 272 Q335 288 370 286 Q470 300 560 290"/>
+<path class="route-line" d="M300 272 Q288 170 300 70"/>
+<path class="route-line" d="M560 290 Q568 170 520 70"/>
+<path class="route-line route-boat" d="M150 270 Q175 340 268 352"/>
+<g class="route-stop route-pass"><circle cx="520" cy="70" r="6"/><text x="530" y="160" text-anchor="end">Base de las Torres<tspan class="route-km" x="530" dy="1.15em">day 1</tspan></text></g>
+<g class="route-stop"><circle cx="560" cy="290" r="6"/><text x="560" y="322" text-anchor="middle">Central<tspan class="route-km" x="560" dy="1.15em">night 1</tspan></text></g>
+<g class="route-stop"><circle cx="370" cy="286" r="6"/><text x="388" y="318" text-anchor="start">Francés<tspan class="route-km" x="388" dy="1.15em">night 2</tspan></text></g>
+<g class="route-stop route-minor"><circle cx="300" cy="272" r="4"/><text x="300" y="300" text-anchor="middle">Italiano</text></g>
+<g class="route-stop route-pass"><circle cx="300" cy="70" r="6"/><text x="316" y="66" text-anchor="start">Mirador Británico<tspan class="route-km" x="316" dy="1.15em">day 3</tspan></text></g>
+<g class="route-stop"><circle cx="150" cy="270" r="6"/><text x="134" y="290" text-anchor="end">Paine Grande<tspan class="route-km" x="134" dy="1.15em">night 3</tspan></text></g>
+<g class="route-stop"><circle cx="95" cy="70" r="6"/><text x="111" y="66" text-anchor="start">Grey<tspan class="route-km" x="111" dy="1.15em">night 4</tspan></text></g>
+<g class="route-stop route-minor"><circle cx="268" cy="352" r="4"/><text x="282" y="350" text-anchor="start">Pudeto<tspan class="route-km" x="282" dy="1.15em">boat out</tspan></text></g>
+</svg>

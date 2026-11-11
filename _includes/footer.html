@@ -1,0 +1,19 @@
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="wrap footer-main-inner">
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="{{ t.guides_url | relative_url }}">{{ t.guides }}</a>
+        <a href="{{ t.about_url | relative_url }}">{{ t.about }}</a>
+      </nav>
+      <ul class="footer-social">
+        <li><a class="social-icon" href="https://www.instagram.com/{{ site.instagram }}/" aria-label="Instagram @{{ site.instagram }}" title="Instagram @{{ site.instagram }}">{% include icon-camera.svg %}</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="wrap footer-bottom-inner">
+      <p>© {{ site.time | date: "%Y" }} Réka · rayappley</p>
+      <a href="{{ t.privacy_url | relative_url }}">{{ t.privacy }}</a>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,17 @@
+<article class="guide-card">
+  <a class="guide-card-link" href="{{ guide.url | relative_url }}">
+    {% assign card_img = guide.card_image | default: guide.hero %}
+    {% if card_img %}
+    <div class="guide-card-media">
+      <img src="{{ card_img | relative_url }}" alt="{{ guide.hero_alt }}" width="1200" height="800" loading="lazy">
+      {% if guide.status == "draft" %}<span class="badge">Draft</span>{% endif %}
+    </div>
+    {% endif %}
+    <div class="guide-card-body">
+      <p class="eyebrow">{{ guide.country }}{% if guide.walked %} · {{ guide.walked }}{% endif %}</p>
+      <h3 class="guide-card-title">{{ guide.short_title | default: guide.title }}</h3>
+      <p class="guide-card-summary">{{ guide.summary }}</p>
+      <p class="guide-card-facts">{% if guide.distance %}<span>{{ guide.distance }}</span>{% endif %}{% if guide.days %}<span>{{ guide.days }} {{ t.days }}</span>{% endif %}{% if guide.kind %}<span>{{ guide.kind }}</span>{% endif %}</p>
+    </div>
+  </a>
+</article>

@@ -1,0 +1,10 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="{{ t.home_url | relative_url }}">rayappley</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="{{ t.guides_url | relative_url }}"{% if page.url contains t.guides_url %} aria-current="page"{% endif %}>{{ t.guides }}</a>
+      <a href="{{ t.about_url | relative_url }}"{% if page.url contains t.about_url %} aria-current="page"{% endif %}>{{ t.about }}</a>
+      <a class="lang-switch" href="{{ page.alt_url | default: t.alt_home | relative_url }}" hreflang="{{ t.alt_lang }}" lang="{{ t.alt_lang }}" title="{{ t.alt_title }}">{{ t.alt_label }}</a>
+    </nav>
+  </div>
+</header>

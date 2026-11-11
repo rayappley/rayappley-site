@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+<div class="wrap page">
+  <header class="page-head">
+    {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+  </header>
+  <div class="prose">
+{{ content }}
+  </div>
+</div>

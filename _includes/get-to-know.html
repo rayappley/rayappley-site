@@ -1,0 +1,20 @@
+<section class="get-to-know" aria-labelledby="gtk-title">
+  <div class="wrap gtk-inner">
+    <header class="gtk-head">
+      <p class="eyebrow">{{ t.gtk_eyebrow }}</p>
+      <h2 class="gtk-title" id="gtk-title">{{ t.gtk_title }}</h2>
+    </header>
+    {% if page.lang == "hu" %}{% assign gtk = site.data.get_to_know_hu %}{% else %}{% assign gtk = site.data.get_to_know %}{% endif %}
+    {% if gtk %}
+    <ol class="gtk-grid">
+      {% for item in gtk %}<li class="gtk-card">
+        <p class="gtk-label">{{ item.label }}</p>
+        <p class="gtk-answer">{% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.text }}</a>{% else %}{{ item.text }}{% endif %}</p>
+      </li>
+      {% endfor %}
+    </ol>
+    {% else %}
+    <p class="todo">Réka: küldd el a pontokat, és beteszem őket.</p>
+    {% endif %}
+  </div>
+</section>

@@ -1,0 +1,56 @@
+# ------------------------------------------------------------
+# rayappley – site settings
+# Change these, commit, push. GitHub rebuilds the site in ~1 min.
+# ------------------------------------------------------------
+
+title: rayappley
+description: Trek guides by Réka, written after walking the trails myself.
+lang: en
+author: Réka
+
+# The site's address. The CNAME file in this folder tells GitHub Pages the same.
+url: "https://rayappley.com"
+baseurl: ""
+
+# false = search engines are asked NOT to index the site (pre-launch).
+# Switch to true on launch day, once the domain is connected.
+launched: false
+
+instagram: rayappley
+email: rayappley@gmail.com
+
+# Guides live in the _guides folder, one Markdown file per guide.
+collections:
+  guides:
+    output: true
+    permalink: /guides/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      lang: en
+  - scope:
+      path: ""
+      type: guides
+    values:
+      layout: guide
+      lang: en
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - tools/
+  - preview/

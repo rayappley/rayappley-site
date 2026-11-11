@@ -1,0 +1,16 @@
+---
+layout: default
+alt_url: /hu/utmutatok/
+title: Guides
+description: Trek guides for trails I walked myself.
+---
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+{% assign guides = site.guides | where: "lang", page.lang | sort: "order" %}
+<div class="wrap page">
+  <header class="page-head">
+    <h1 class="page-title">Guides</h1>
+  </header>
+  <div class="card-grid">
+    {% for guide in guides %}{% include guide-card.html %}{% endfor %}
+  </div>
+</div>

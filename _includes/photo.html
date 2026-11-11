@@ -1,0 +1,4 @@
+<figure class="photo{% if include.wide %} photo-wide{% endif %}">
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}" loading="lazy">
+  {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>

@@ -1,0 +1,14 @@
+# "Get to know Réka" cards on the About page. One item per block:
+#
+# - label: My go-to camera lens
+#   text: 24-70 mm f/2.8
+#   url: https://...        (optional: makes the answer a link)
+#
+- label: My favorite place to hike
+  text: The High Tatras
+- label: The longest trek I've done
+  text: The West Highland Way
+- label: My coffee order
+  text: Cold brew tonic
+- label: My dream pet
+  text: 10 bunnies

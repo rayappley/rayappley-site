@@ -1,0 +1,9 @@
+{% assign guides = site.guides | where: "lang", page.lang | sort: "order" %}
+<section class="more-guides" aria-labelledby="more-title">
+  <div class="wrap">
+    <h2 class="section-title" id="more-title">{{ t.more_guides }}</h2>
+    <div class="card-grid card-grid-3">
+      {% for guide in guides %}{% if guide.url != page.url %}{% include guide-card.html %}{% endif %}{% endfor %}
+    </div>
+  </div>
+</section>

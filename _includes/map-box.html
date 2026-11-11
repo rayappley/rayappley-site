@@ -1,0 +1,8 @@
+{% if page.map_status %}
+<div class="map-box">
+  <p class="eyebrow">Offline map</p>
+  <p class="map-box-title">{{ page.map_title | default: "Offline map for this trail" }}</p>
+  <p>{{ page.map_text }}</p>
+  {% if page.map_url %}<a class="button" href="{{ page.map_url }}">Get the map</a>{% else %}<p class="map-box-status">{{ page.map_status }}</p>{% endif %}
+</div>
+{% endif %}

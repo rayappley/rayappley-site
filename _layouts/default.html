@@ -1,0 +1,16 @@
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+{% include head.html %}
+</head>
+<body>
+<a class="skip-link" href="#main">{{ t.skip }}</a>
+{% include header.html %}
+<main id="main">
+{{ content }}
+</main>
+{% include footer.html %}
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
+</html>

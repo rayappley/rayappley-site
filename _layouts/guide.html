@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+<article class="guide" data-nav-scope>
+  <header class="guide-head wrap">
+    <p class="eyebrow">{{ page.country }}{% if page.region %} · {{ page.region }}{% endif %}</p>
+    <h1 class="guide-title">{{ page.title }}</h1>
+    {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+    <p class="byline">{% if page.byline %}{{ page.byline }}{% else %}{{ t.by }}{% if page.walked %} · {{ t.walked_in }} {{ page.walked }}{% endif %}{% if page.updated %} · {{ t.last_updated }} {{ page.updated }}{% endif %}{% endif %}</p>
+  </header>
+
+  {% if page.hero %}
+  <figure class="guide-hero wrap-wide">
+    <img src="{{ page.hero | relative_url }}" alt="{{ page.hero_alt }}" width="1800" height="1000">
+    {% if page.hero_caption %}<figcaption>{{ page.hero_caption }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+
+  {% if page.status == "draft" %}
+  <div class="wrap"><p class="draft-note"><strong>Work in progress.</strong> This guide is still being written. Facts marked TBC are not checked yet.</p></div>
+  {% endif %}
+
+  <div class="wrap guide-body">
+    <aside class="facts" aria-labelledby="facts-title">
+      <h2 class="facts-title" id="facts-title">{{ t.trail_facts }}</h2>
+      <dl class="facts-list">
+        {% if page.route %}<div><dt>{{ t.f_route }}</dt><dd>{{ page.route }}</dd></div>{% endif %}
+        {% if page.distance %}<div><dt>{{ t.f_distance }}</dt><dd>{{ page.distance }}</dd></div>{% endif %}
+        {% if page.days %}<div><dt>{{ t.f_days }}</dt><dd>{{ page.days }}</dd></div>{% endif %}
+        {% if page.high_point %}<div><dt>{{ t.f_high_point }}</dt><dd>{{ page.high_point }}</dd></div>{% endif %}
+        {% if page.sleep %}<div><dt>{{ t.f_sleep }}</dt><dd>{{ page.sleep }}</dd></div>{% endif %}
+        {% if page.best_months %}<div><dt>{{ t.f_best_months }}</dt><dd>{{ page.best_months }}</dd></div>{% endif %}
+        {% if page.permits %}<div><dt>{{ t.f_permits }}</dt><dd>{{ page.permits }}</dd></div>{% endif %}
+        {% if page.walked %}<div><dt>{{ t.f_walked }}</dt><dd>{{ page.walked }}</dd></div>{% endif %}
+      </dl>
+      {% include map-box.html %}
+    </aside>
+
+    <div class="guide-main">
+      <nav class="page-nav" aria-label="On this page" hidden>
+        <p class="page-nav-title">{{ t.on_this_page }}</p>
+        <ol class="page-nav-list"></ol>
+      </nav>
+      <div class="prose">
+{{ content }}
+      </div>
+    </div>
+  </div>
+
+  {% assign same_lang = site.guides | where: "lang", page.lang %}{% if same_lang.size > 1 %}{% include more-guides.html %}{% endif %}
+</article>

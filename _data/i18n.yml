@@ -1,0 +1,65 @@
+# Interface text in both languages. Page text lives in the pages themselves.
+en:
+  home_url: /
+  guides_url: /guides/
+  about_url: /about/
+  privacy_url: /privacy/
+  guides: Guides
+  about: About
+  privacy: Privacy Policy
+  skip: Skip to content
+  instagram_label: Instagram @rayappley
+  alt_lang: hu
+  alt_label: HU
+  alt_title: Magyar
+  alt_home: /hu/
+  days: days
+  by: By Réka
+  walked_in: walked in
+  last_updated: last updated
+  on_this_page: On this page
+  trail_facts: Trail facts
+  f_route: Route
+  f_distance: Distance
+  f_days: Days
+  f_high_point: High point
+  f_sleep: Sleeping
+  f_best_months: Best months
+  f_permits: Permits
+  f_walked: Walked in
+  more_guides: More guides
+  gtk_eyebrow: Quick facts
+  gtk_title: Get to know Réka
+  follow: Follow along on Instagram @rayappley
+hu:
+  home_url: /hu/
+  guides_url: /hu/utmutatok/
+  about_url: /hu/rolam/
+  privacy_url: /hu/adatvedelem/
+  guides: Útmutatók
+  about: Rólam
+  privacy: Adatvédelem
+  skip: Ugrás a tartalomra
+  instagram_label: Instagram @rayappley
+  alt_lang: en
+  alt_label: EN
+  alt_title: English
+  alt_home: /
+  days: nap
+  by: Réka
+  walked_in: ott jártam
+  last_updated: frissítve
+  on_this_page: Ebben a cikkben
+  trail_facts: A túra adatai
+  f_route: Útvonal
+  f_distance: Táv
+  f_days: Napok
+  f_high_point: Legmagasabb pont
+  f_sleep: Szállás
+  f_best_months: Legjobb hónapok
+  f_permits: Engedélyek
+  f_walked: Mikor jártam ott
+  more_guides: További útmutatók
+  gtk_eyebrow: Pár infó
+  gtk_title: Ismerj meg jobban
+  follow: "Kövess Instagramon: @rayappley"
