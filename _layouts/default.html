@@ -12,5 +12,7 @@
 </main>
 {% include footer.html %}
 <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
-</body>
+{% if site.launched %}<!-- Cloudflare Web Analytics: cookieless visitor counts -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "cb8f5aab8b6044c9b8c7c731f186424c"}'></script>
+{% endif %}</body>
 </html>
