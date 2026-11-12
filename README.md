@@ -52,14 +52,12 @@ Képek: JPG, kb. 2000 px széles, lehetőleg 500 KB alatt.
 
 github.com → repó → nyisd meg a fájlt → ceruza ikon → szerkeszd → *Commit changes*. Kb. 1 perc múlva frissül az oldal.
 
-## Betűtípus csere
+## Betűtípusok
 
-A címekhez most a **Bricolage Grotesque** van beállítva (ingyenes Google Font, magyar ékezetekkel). Csere:
+A betűk az oldal saját szerveréről töltődnek be (`assets/fonts/`, `assets/css/fonts.css`), nem a Google Fontsról, így a látogatók IP-címe nem jut el a Google-höz.
 
-1. `_includes/head.html`: írd át a Google Fonts linket.
-2. `assets/css/main.css`: írd át a `--font-display` sort.
-
-Saját betűfájl (pl. .woff2) az `assets/fonts/` mappába mehet. Előtte nézd meg, hogy a licence engedi-e a webes használatot.
+- Címek: **Bricolage Grotesque**, szöveg: **DM Sans**, kis feliratok: **DM Mono**. Mindhárom ingyenes (SIL Open Font License), magyar ékezetekkel.
+- Csere: tedd az új .woff2 fájlokat az `assets/fonts/` mappába, írd át a `@font-face` szabályokat az `assets/css/fonts.css`-ben, és a `--font-display` / `--font-body` / `--font-mono` sorokat az `assets/css/main.css` tetején. Előtte nézd meg, hogy a licenc engedi-e a webes használatot.
 
 ## Indulás
 

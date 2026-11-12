@@ -319,4 +319,4 @@ In our case, basically nothing. Foxes came to steal food at the campsites, and w
 3. **Book the bus home for the right day.** :D
 4. **Don't count on a climbing permit.** I thought a free climbing permit could have saved us the campsite fees, but it doesn't work that way. It's only for actual climbing, it comes with a long list of requirements (a DIFROL permit, rescue insurance, a radio or satellite phone), and the park can revoke it if you misuse it. If you just want to hike the W, book the campsites.
 
-Got questions? Ask me on Instagram [@rayappley](https://www.instagram.com/rayappley/).
+Follow along on Instagram: [@rayappley](https://www.instagram.com/rayappley/)

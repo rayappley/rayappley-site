@@ -60,7 +60,12 @@ def fix_links(html, route):
 def main(out):
     home = open(os.path.join(PV, "index.html"), encoding="utf-8").read()
     css = open(os.path.join(ROOT, "assets/css/main.css"), encoding="utf-8").read()
-    fonts = re.search(r'<link rel="stylesheet" href="https://fonts.googleapis.com[^>]+>', home).group(0)
+    # self-hosted fonts: inline the @font-face rules with the woff2 files as data URIs
+    fonts_css = open(os.path.join(ROOT, "assets/css/fonts.css"), encoding="utf-8").read()
+    def font_uri(m):
+        data = base64.b64encode(open(os.path.join(ROOT, "assets/fonts", m.group(1)), "rb").read()).decode()
+        return f"url(data:font/woff2;base64,{data})"
+    fonts = "<style>\n" + re.sub(r"url\(\.\./fonts/([^)]+)\)", font_uri, fonts_css) + "\n</style>"
 
     sections = []
     for route, path in ROUTES.items():

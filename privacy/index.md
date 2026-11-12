@@ -11,7 +11,6 @@ This site is run by Réka (rayappley). It's a simple blog: there are no accounts
 ## What is collected when you visit
 
 - **Hosting.** The site is hosted on GitHub Pages. When you open a page, GitHub's servers receive technical data such as your IP address, your browser and the page you asked for, and may keep it in their logs. See the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
-- **Fonts.** The fonts are loaded from Google Fonts, so your browser connects to Google's servers, which receive your IP address. See the [Google Privacy Policy](https://policies.google.com/privacy).
 
 I don't see or store any of this data myself.
 
