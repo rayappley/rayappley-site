@@ -67,8 +67,8 @@ Saját betűfájl (pl. .woff2) az `assets/fonts/` mappába mehet. Előtte nézd 
 2. ✓ Repó létrehozva, a fájlok bemásolva. `_config.yml`-ben már a `rayappley.com` cím áll, és van `CNAME` fájl.
 3. ✓ Publish repository (publikus) → Settings → Pages: *Deploy from a branch*, `main` / `(root)`. A Custom domain mezőben a `rayappley.com`-nak kell állnia.
 4. ✓ Porkbun DNS: a GitHub Pages rekordjai (4 A rekord + www CNAME). Ha a domain zöld pipát kapott, kapcsold be az *Enforce HTTPS*-t.
-5. Képek: a W Trek borítóképe (ez lesz a kártyakép is), plusz pár kép a cikkbe.
-6. Élesítés: `_config.yml` → `launched: true`. Ettől kezdve indexelhetik a keresők.
+5. ✓ Képek: a W Trek borítóképe (ez lesz a kártyakép is), plusz pár kép a cikkbe.
+6. ✓ Élesítés: `_config.yml` → `launched: true`. Ettől kezdve indexelhetik a keresők.
 7. Google Search Console → domain hozzáadása → sitemap beküldése (`https://rayappley.com/sitemap.xml`).
 
 ## Licencek

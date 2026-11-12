@@ -14,7 +14,7 @@ baseurl: ""
 
 # false = search engines are asked NOT to index the site (pre-launch).
 # Switch to true on launch day, once the domain is connected.
-launched: false
+launched: true
 
 instagram: rayappley
 email: rayappley@gmail.com
