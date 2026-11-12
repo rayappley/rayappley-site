@@ -189,7 +189,7 @@ p { margin: 0; }
 .chip .mono { color: var(--ink-soft); margin-left: 4px; }
 
 /* ---------- header & footer ---------- */
-.site-header { padding-block: 20px; }
+.site-header { padding-block: 20px; background: var(--footer); color: var(--on-footer); }
 .header-inner { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 .wordmark {
   font-family: var(--font-display);
@@ -484,5 +484,5 @@ body { min-height: 100vh; display: flex; flex-direction: column; }
 .about-links { display: flex; flex-wrap: wrap; gap: 8px 28px; }
 
 /* language switch */
-.site-nav .lang-switch { font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.06em; border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; text-decoration: none; }
+.site-nav .lang-switch { font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.06em; border: 1px solid rgba(241, 230, 200, 0.35); border-radius: 999px; padding: 3px 10px; text-decoration: none; }
 .site-nav .lang-switch:hover { border-color: var(--accent); }
