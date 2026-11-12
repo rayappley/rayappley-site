@@ -1,10 +1,14 @@
 ---
 layout: default
-title: Túraútmutatók
-image: /assets/img/home/hero-mountains.jpg
+title: Utazási útmutatók
+image:
+  path: /assets/img/og/home.jpg
+  width: 1200
+  height: 630
+  alt: Hegygerincek esti fényben
 lang: hu
 alt_url: /
-description: Réka túraútmutatói, mindegyik saját tapasztalat alapján.
+description: Őszinte, gyakorlatias utazási útmutatók Rékától, olyan helyekről, ahol tényleg jártam.
 ---
 {% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
 {% assign guides = site.guides | where: "lang", page.lang | sort: "order" %}

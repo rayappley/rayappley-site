@@ -1,8 +1,13 @@
 ---
 layout: default
 alt_url: /hu/
-title: Trek guides
-image: /assets/img/home/hero-mountains.jpg
+title: Travel guides
+description: Honest, practical travel guides by Réka, from places I've actually been.
+image:
+  path: /assets/img/og/home.jpg
+  width: 1200
+  height: 630
+  alt: Mountain ridges in soft evening light
 ---
 {% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
 {% assign guides = site.guides | where: "lang", page.lang | sort: "order" %}

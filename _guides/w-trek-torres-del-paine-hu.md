@@ -24,7 +24,11 @@ best_months: November–március
 permits: "Parkbelépő és kempingek, előre foglalva"
 hero: /assets/img/w-trek/base-de-las-torres.jpg
 card_image: /assets/img/w-trek/base-de-las-torres-card.jpg
-image: /assets/img/w-trek/base-de-las-torres.jpg
+image:
+  path: /assets/img/og/w-trek.jpg
+  width: 1200
+  height: 630
+  alt: A három gránittorony a tó fölött a Base de las Torresnél
 hero_alt: "Torres del Paine három gránittornya a tó fölött a Base de las Torresnél"
 hero_caption: "Base de las Torres, 1. nap"
 ---
