@@ -22,6 +22,11 @@ high_point: Mirador Las Torres
 sleep: "Saját sátor, 4 foglalt kempingben. Vadkempingezni tilos."
 best_months: November–március
 permits: "Parkbelépő és kempingek, előre foglalva"
+hero: /assets/img/w-trek/base-de-las-torres.jpg
+card_image: /assets/img/w-trek/base-de-las-torres-card.jpg
+image: /assets/img/w-trek/base-de-las-torres.jpg
+hero_alt: "Torres del Paine három gránittornya a tó fölött a Base de las Torresnél"
+hero_caption: "Base de las Torres, 1. nap"
 ---
 
 ## Mi az a W Trek?
@@ -77,7 +82,7 @@ Ez a mi 5 napos W Trek útitervünk Torres del Painében, keletről nyugatra. A 
 | 4 | Paine Grande → Grey + Mirador Grey | 11 | Grey |
 | 5 | Grey → Paine Grande, katamarán Pudetóig, busz Puerto Natalesbe | 11 | Puerto Natales |
 
-<figure class="route-figure">{% include w-trek-route-hu.svg %}<figcaption>Az útvonalunk keletről nyugatra. Üres pöttyök: a kempingek, ahol aludtunk. Narancs pöttyök: kilátók. Nem méretarányos.</figcaption></figure>
+<figure class="route-figure route-figure--band">{% include w-trek-route-hu.svg %}<figcaption>Az útvonalunk keletről nyugatra. Üres pöttyök: a kempingek, ahol aludtunk. Narancs pöttyök: kilátók. Pontozott vonal: katamarán.<span class="figure-credit">Útvonaladatok © OpenStreetMap contributors</span></figcaption></figure>
 
 ### 1. nap: Welcome Center → Base de las Torres → Central (19 km)
 
@@ -95,7 +100,11 @@ Az első éjszakára a másik opció a Chileno kemping lett volna. Az közelebb 
 
 Korán keltünk, hogy elcsípjük a hajnali alpenglow-t a kempingből. Megint szerencsénk volt: rózsaszínben izzottak a tornyok, bár csak messziről láttuk. Utána összepakoltunk, és nekivágtunk a hosszú útnak Francésig.
 
+{% include photo.html src="/assets/img/w-trek/alpenglow-towers.jpg" alt="Torres del Paine gránittornyai rózsaszínben izzanak napkeltekor, messziről nézve" caption="Hajnali alpenglow a tornyokon, Centralból" %}
+
 Őszintén, ez volt az egyik kedvenc napom. Az első napon a csúcson lévő elképesztő kilátáson kívül a táj nem volt annyira izgalmas, és kicsit csalódott voltam. A második nap rácáfolt erre. A táj egyre epikusabb lett: feltűnt a Lago Nordenskjöld kék vize, és egész nap velünk maradt, a vad, sziklás terep pedig egyre jobban kinyílt, ahogy egyre mélyebbre mentünk a parkba.
+
+{% include photo.html src="/assets/img/w-trek/lago-nordenskjold.jpg" alt="A türkiz Lago Nordenskjöld száraz, sziklás dombok alatt a Francésba vezető ösvényről" caption="A Lago Nordenskjöld egész nap velünk maradt" %}
 
 Fáradtan, de boldogan értünk Francésba, és az erdőben, az egyik faplatformon vertük fel a sátrat. Kilátás ezúttal nem volt, de a fák megvédtek a naplemente után eleredt szemerkélő esőtől. Gyorsan elaludtunk, a gleccserek morajlását hallgatva.
 
@@ -105,19 +114,33 @@ A hosszú nap. Szuper korán indultunk Francésból, szemerkélő esőben, és 6
 
 Sebaj: amíg vártunk, elállt az eső, és a köd is felszállt a völgyből. A nagy hátizsákokat Italianóban hagytuk, és csak egy kis zsákkal mentünk fel a Británicóhoz. Meredek emelkedő, de abszolút megéri egészen a tetejéig felmenni. A kilátóból elképesztő volt a látvány: néztük, ahogy omlanak a gleccserek, és ahogy a felhők mozognak a csúcsok körül.
 
+{% include photo.html src="/assets/img/w-trek/valle-frances-fog.jpg" alt="Havas csúcsok bukkannak elő a felszálló ködből a Francés-völgyben" caption="Felszáll a köd a Francés-völgyben" %}
+
+{% include photo.html src="/assets/img/w-trek/britanico-glacier.jpg" alt="Gleccserek és sötét sziklák a hegyoldalon a Francés-völgy fölött" caption="Gleccserek a Francés-völgy fölött" %}
+
 Aztán visszamentünk Italianóba, felvettük a nagy zsákokat, és továbbmentünk Paine Grandéig. Egy ilyen korai kelés és egy meredek fel-le után ez az utolsó szakasz nem volt túl vicces, és teljesen kimerültünk, mire beértünk a kempingbe. Gyorsan felállítottuk a sátrat, és megjutalmaztuk magunkat egy kis keksszel a kis boltból. Ez nagy plusz volt: a Las Torres kempingekben nincs ilyen bolt, csak drága kész kaja.
+
+{% include photo.html src="/assets/img/w-trek/italiano-to-paine-grande.jpg" alt="A Cuernos csúcsai csupasz, fehér fák mögött az Italianóból Paine Grandéba vezető ösvényen" caption="Úton Italianóból Paine Grandéba" %}
 
 ### 4. nap: Paine Grande → Grey (11 km)
 
 Elég könnyű nap, különösebb izgalmak nélkül. Elég korán odaértünk Greybe, így a sátorverés után kisétáltunk a Mirador Greyhez, a gleccserkilátóhoz. Este egy róka látogatta meg a kempinget. Nagy izgalmat okozott a túrázók között, bár a személyzet láthatóan hozzá volt szokva :) Azért nagyon cuki volt.
 
+{% include photo.html src="/assets/img/w-trek/mirador-grey.jpg" alt="Egy túrázó áll egy sziklán a Lago Grey fölött, és a Grey-gleccsert nézi" caption="A Grey-gleccser úton a Grey kemping felé" %}
+
 Éjjel visszamentünk a kilátóhoz csillagokat fotózni. Elég hideg volt, úgyhogy hamar feladtuk, de lett pár jó képünk, és a látvány egyszerűen elképesztő volt.
+
+{% include photo.html src="/assets/img/w-trek/grey-sunset.jpg" alt="Havas csúcsok narancsban a lemenő naptól a Grey kemping közelében" caption="Naplemente a Grey kemping közelében" %}
 
 ### 5. nap: Grey → Paine Grande → Pudeto (11 km)
 
 Nagyon korán keltünk, hogy visszatúrázzunk Paine Grandéba, és elérjük a 10:30-as katamaránt Pudetóba. Ebben az irányban ez a szakasz sokkal szebb volt, mint előző nap. Jó tempóban mentünk, és gond nélkül odaértünk.
 
+{% include photo.html src="/assets/img/w-trek/catamaran-pehoe.jpg" alt="A Paine-hegység tükröződik a Lago Pehoé kék vizében, felhőtlen égbolt alatt" caption="Kilátás a katamaránról a Lago Pehoén" %}
+
 11:00 körül szálltunk le a hajóról, és a 19:30-as buszig még rengeteg időnk volt, úgyhogy elmentünk a Mirador Cuernoshoz. A nagy zsákokat itt is le tudtuk tenni, ezúttal a buszmegálló melletti kis refugióban. Nagyon ajánlom ezt a túrát: innen láttuk a hét egyik legszebb kilátását!
+
+{% include photo.html src="/assets/img/w-trek/mirador-cuernos.jpg" alt="A Cuernos a türkiz Lago Nordenskjöld fölött a Mirador Cuernosból" caption="Mirador Cuernos" %}
 
 ### Záróidők a W Treken
 
@@ -135,6 +158,8 @@ Sétálj el Greyből a függőhidakig és vissza. Vagy ha csak pár órád van a
 Hogy lett szabad napunk: 5 nap alatt jártuk be a W-t, de 6 napig maradtunk. Valaki a csapatból (nem mondok neveket :D) úgy gondolta, ha 10-én indulunk és 5 napot túrázunk, akkor 15-én megy haza a buszunk. 14-én ment.
 
 Úgyhogy foglaltunk még egy éjszakát Greyben, és elsétáltunk a függőhidakig és vissza. Itt kezdődik az O Circuit hátsó oldala. Október közepén a második híd után le volt zárva az ösvény, úgyhogy ott fordultunk vissza.
+
+{% include photo.html src="/assets/img/w-trek/suspension-bridge.jpg" alt="Hosszú függőhíd egy erdős szurdok fölött Greytől északra" caption="Az egyik függőhíd Greytől északra" %}
 
 ## Hogyan foglalj kempinget és refugiót a W Trekre?
 

@@ -1,6 +1,8 @@
 ---
 title: Rólam
 layout: about
+photo: /assets/img/home/reka.jpg
+photo_alt: "Réka nevet, a mintás kendője lobog a szélben napkeltekor Kappadókiában, az égen hőlégballonok"
 lang: hu
 alt_url: /about/
 description: Ki áll a rayappley mögött.

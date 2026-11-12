@@ -2,10 +2,13 @@
 layout: default
 ---
 {% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
-<div class="wrap page">
+<div class="wrap page{% if page.photo %} about-page{% endif %}">
   <header class="page-head">
     <h1 class="page-title">{{ page.title }}</h1>
   </header>
+  {% if page.photo %}<figure class="about-page-photo">
+    <img src="{{ page.photo | relative_url }}" alt="{{ page.photo_alt }}" width="1100" height="1375">
+  </figure>{% endif %}
   <div class="prose">
 {{ content }}
   </div>

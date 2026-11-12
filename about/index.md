@@ -1,6 +1,8 @@
 ---
 title: About me
 layout: about
+photo: /assets/img/home/reka.jpg
+photo_alt: "Réka laughing as her patterned scarf blows in the wind at sunrise in Cappadocia, with hot air balloons in the sky"
 alt_url: /hu/rolam/
 description: Who's behind rayappley.
 ---

@@ -2,20 +2,18 @@
 layout: default
 alt_url: /hu/
 title: Trek guides
+image: /assets/img/home/hero-mountains.jpg
 ---
 {% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
 {% assign guides = site.guides | where: "lang", page.lang | sort: "order" %}
-<section class="home-hero">
-  <div class="wrap home-hero-inner">
-    <div class="home-hero-text">
-      <p class="eyebrow">By Réka · currently on the road in South America</p>
-      <h1 class="home-title">Everything I wish I'd known before I went</h1>
-      <p class="lede">Honest, practical guides and travel notes from the places I've been. I put the info together so you don't have to dig for it like I had to :)</p>
-    </div>
-    <figure class="home-hero-photo">
-      <img src="{{ '/assets/img/hero-cappadocia.jpg' | relative_url }}" alt="Hot air balloons over the rock formations of Cappadocia at sunrise" width="964" height="1458">
-      <figcaption>Cappadocia, Turkey · sunrise</figcaption>
-    </figure>
+<section class="home-hero home-hero--image">
+  <div class="home-hero-slides" aria-hidden="true">
+    <img src="{{ '/assets/img/home/hero-mountains.jpg' | relative_url }}" alt="" width="2400" height="1500" fetchpriority="high">
+  </div>
+  <div class="wrap home-hero-content">
+    <p class="eyebrow">By Réka · currently on the road in South America</p>
+    <h1 class="home-title">Everything I wish I'd known before I went</h1>
+    <p class="lede">Honest, practical guides and travel notes from the places I've been. I put the info together so you don't have to dig for it like I had to :)</p>
   </div>
 </section>
 
@@ -30,14 +28,16 @@ title: Trek guides
   </div>
 </section>
 
-
 <section class="home-about" id="about-me" aria-labelledby="about-title">
-  <div class="wrap about-inner about-inner--text">
-    <div class="about-text">
+  <div class="about-band">
+    <div class="about-band-photo">
+      <img src="{{ '/assets/img/home/reka.jpg' | relative_url }}" alt="Réka laughing as her patterned scarf blows in the wind at sunrise in Cappadocia, with hot air balloons in the sky" width="1100" height="1375" loading="lazy">
+    </div>
+    <div class="about-band-text">
       <h2 class="section-title" id="about-title">Hi, I'm Réka</h2>
       <p>I was born and raised in Hungary and grew up hiking and scouting. University and work pulled me away from nature for a while, but I found my way back to the mountains and to travel, and I've been filling my life with them ever since. This year I quit my job to travel South America, with no end date.</p>
       <p>I start every adventure with a lot of research, so this blog is where I share everything I've learned. It's for every type-A adventurer who likes to know exactly what they're getting into :)</p>
-      <p><a class="text-link" href="{{ '/about/' | relative_url }}">More about me</a></p>
+      <p><a class="button button--light" href="{{ '/about/' | relative_url }}">More about me</a></p>
     </div>
   </div>
 </section>

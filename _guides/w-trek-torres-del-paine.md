@@ -19,6 +19,11 @@ high_point: Mirador Las Torres
 sleep: "Our own tent at 4 booked campsites. Wild camping is not allowed."
 best_months: November to March
 permits: "Park ticket and campsites, booked in advance"
+hero: /assets/img/w-trek/base-de-las-torres.jpg
+card_image: /assets/img/w-trek/base-de-las-torres-card.jpg
+image: /assets/img/w-trek/base-de-las-torres.jpg
+hero_alt: "The three granite towers of Torres del Paine above the lake at Base de las Torres"
+hero_caption: "Base de las Torres, day 1"
 ---
 
 ## What is the W Trek?
@@ -74,7 +79,7 @@ This is our 5-day W Trek itinerary in Torres del Paine, east to west. The distan
 | 4 | Paine Grande → Grey + Mirador Grey | 11 | Grey |
 | 5 | Grey → Paine Grande, catamaran to Pudeto, bus to Puerto Natales | 11 | Puerto Natales |
 
-<figure class="route-figure">{% include w-trek-route.svg %}<figcaption>Our route, east to west. Hollow dots: the campsites we slept at. Orange dots: viewpoints. Not to scale.</figcaption></figure>
+<figure class="route-figure route-figure--band">{% include w-trek-route.svg %}<figcaption>Our route, east to west. Hollow dots: the campsites we slept at. Orange dots: viewpoints. Dotted line: catamaran.<span class="figure-credit">Route data © OpenStreetMap contributors</span></figcaption></figure>
 
 ### Day 1: Welcome Center → Base de las Torres → Central (19 km)
 
@@ -92,7 +97,11 @@ The other option for the first night would have been Chileno campsite. It's clos
 
 We woke up early to catch the alpenglow from the campsite. Again, we were lucky: we saw the towers glowing pink, although only from a distance. Then we packed up and started the long hike to Francés.
 
+{% include photo.html src="/assets/img/w-trek/alpenglow-towers.jpg" alt="The granite towers of Torres del Paine glowing pink at sunrise, seen from far away" caption="Morning alpenglow on the towers, from Central" %}
+
 Honestly, this was one of my favorite days. On day 1, apart from the incredible view at the top, the scenery wasn't that exciting, and I was a little disappointed. Day 2 proved me wrong. The landscape got more and more epic: the blue water of Lago Nordenskjöld came into view and stayed with us all day, and the wild, rocky terrain opened up as we went deeper into the park.
+
+{% include photo.html src="/assets/img/w-trek/lago-nordenskjold.jpg" alt="Turquoise Lago Nordenskjöld below dry, rocky hills on the trail to Francés" caption="Lago Nordenskjöld kept us company all day" %}
 
 We arrived at Francés tired but happy, and pitched our tent on one of the wooden platforms in the forest. No views this time, but the trees sheltered us from the light rain that started after sunset. We fell asleep quickly, listening to the rumble of the glaciers.
 
@@ -102,19 +111,33 @@ The long one. We left Francés super early, in light drizzle, and were at the ga
 
 Never mind: while we waited, the rain stopped and the fog lifted from the valley. We left our big backpacks at Italiano and hiked up to Británico with just a small pack. It's a steep climb, but totally worth going all the way up. The views from the mirador were amazing: we watched the glaciers crumble and the clouds move around the peaks.
 
+{% include photo.html src="/assets/img/w-trek/valle-frances-fog.jpg" alt="Snowy peaks appearing through lifting fog in the Francés Valley" caption="The fog lifting in the Francés Valley" %}
+
+{% include photo.html src="/assets/img/w-trek/britanico-glacier.jpg" alt="Glaciers and dark rock on the mountainside above the Francés Valley" caption="Glaciers above the Francés Valley" %}
+
 Then we went back down to Italiano, picked up our big packs and continued to Paine Grande. After such an early start and a steep climb up and down, this last part wasn't much fun, and we were exhausted by the time we reached the campsite. We pitched the tent quickly and treated ourselves to some biscuits from the little shop there. That was a big plus: the Las Torres campsites don't have shops like this, only expensive ready meals.
+
+{% include photo.html src="/assets/img/w-trek/italiano-to-paine-grande.jpg" alt="The Cuernos peaks behind bare white trees on the trail from Italiano to Paine Grande" caption="On the way from Italiano to Paine Grande" %}
 
 ### Day 4: Paine Grande → Grey (11 km)
 
 A fairly easy day without much excitement. We hiked to Grey and got there pretty early, so after setting up camp we walked out to Mirador Grey, the glacier viewpoint. In the evening a fox visited the campsite. She caused great excitement among the hikers, although the staff seemed pretty used to her :) She was very cute, though.
 
+{% include photo.html src="/assets/img/w-trek/mirador-grey.jpg" alt="A hiker standing on a rock above Lago Grey, looking at Glacier Grey" caption="Glacier Grey on the way to Grey campsite" %}
+
 At night we went back out to the mirador to photograph the stars. It was pretty cold, so we gave up fairly quickly, but we got some nice shots, and the view was just amazing.
+
+{% include photo.html src="/assets/img/w-trek/grey-sunset.jpg" alt="Snowy peaks lit orange by the setting sun near Grey campsite" caption="Sunset near Grey campsite" %}
 
 ### Day 5: Grey → Paine Grande → Pudeto (11 km)
 
 We got up very early to hike back to Paine Grande and catch the 10:30 catamaran to Pudeto. This section was much more beautiful in this direction than the day before. We kept a good pace and made it in time without any problem.
 
+{% include photo.html src="/assets/img/w-trek/catamaran-pehoe.jpg" alt="The Paine massif reflected in the blue water of Lago Pehoé under a clear sky" caption="The view from the catamaran on Lago Pehoé" %}
+
 We got off the boat around 11:00 and still had plenty of time before our 19:30 bus, so we hiked to Mirador Cuernos. Again, we could leave our big packs, this time at the little refugio by the bus stop. I highly recommend this hike: we got some of the best views of the whole week here!
+
+{% include photo.html src="/assets/img/w-trek/mirador-cuernos.jpg" alt="Los Cuernos above turquoise Lago Nordenskjöld from Mirador Cuernos" caption="Mirador Cuernos" %}
 
 ### W Trek trail cut-off times
 
@@ -132,6 +155,8 @@ Walk from Grey to the suspension bridges and back. Or, if you only have a few ho
 How we ended up with a spare day: we hiked the W in 5 days, but stayed 6. Someone in our team (not naming names :D) decided that if we start on the 10th and hike for 5 days, the bus home is on the 15th. It was the 14th.
 
 So we booked an extra night at Grey and walked to the suspension bridges and back. This is the start of the O Circuit's back side. In mid-October the trail was closed after the second bridge, so that's where we turned around.
+
+{% include photo.html src="/assets/img/w-trek/suspension-bridge.jpg" alt="A long suspension bridge over a forested gorge north of Grey" caption="One of the suspension bridges north of Grey" %}
 
 ## How do you book the W Trek campsites and refugios?
 
