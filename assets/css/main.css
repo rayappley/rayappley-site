@@ -448,7 +448,6 @@ p { margin: 0; }
 .about-page { display: flow-root; }
 .about-page-photo { float: right; width: clamp(140px, 42%, 400px); margin: 4px 0 16px clamp(16px, 4vw, 64px); }
 .about-page-photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 30%; border-radius: var(--radius); }
-}
 .page-head .chips { margin-top: 4px; }
 
 @media (prefers-reduced-motion: reduce) {
@@ -461,7 +460,8 @@ p { margin: 0; }
 span.todo { display: inline; padding: 1px 6px; }
 
 /* ---------- about: get to know ---------- */
-.get-to-know { margin-top: 72px; padding-block: 56px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.get-to-know { margin-top: 72px; padding-block: 56px 72px; border-top: 1px solid var(--line); }
+.get-to-know:last-child { margin-bottom: calc(-1 * var(--footer-gap, 96px)); } /* footer follows the facts directly */
 .gtk-inner { display: grid; gap: 32px; grid-template-columns: 1fr; }
 @media (min-width: 860px) { .gtk-inner { grid-template-columns: 1fr 2fr; gap: 56px; align-items: start; } }
 .gtk-head { display: grid; gap: 12px; align-content: start; }

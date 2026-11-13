@@ -1,4 +1,12 @@
-# Az "Ismerj meg jobban" kártyák a magyar Rólam oldalon.
+# A "Pár gyors infó" kártyák a magyar Rólam oldalon.
+- label: Főállásban
+  text: Product designer
+- label: Mellékállásban
+  text: Tetováló
+- label: Nyelvek, amiket beszélek
+  text: Magyar, angol, spanyol és egy kis svéd
+- label: Kedvenc évszakom
+  text: Tél
 - label: Kedvenc túra helyem
   text: Magas-Tátra
 - label: A leghosszabb túrám

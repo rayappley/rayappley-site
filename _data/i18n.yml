@@ -28,8 +28,7 @@ en:
   f_permits: Permits
   f_walked: Walked in
   more_guides: More guides
-  gtk_eyebrow: Quick facts
-  gtk_title: Get to know Réka
+  gtk_title: Some quick facts
   follow: Follow along on Instagram @rayappley
 hu:
   home_url: /hu/
@@ -60,6 +59,5 @@ hu:
   f_permits: Engedélyek
   f_walked: Mikor jártam ott
   more_guides: További útmutatók
-  gtk_eyebrow: Pár infó
-  gtk_title: Ismerj meg jobban
+  gtk_title: Pár gyors infó
   follow: "Kövess Instagramon: @rayappley"

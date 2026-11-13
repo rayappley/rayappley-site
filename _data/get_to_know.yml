@@ -1,9 +1,17 @@
-# "Get to know Réka" cards on the About page. One item per block:
+# "Some quick facts" cards on the About page. One item per block:
 #
 # - label: My go-to camera lens
 #   text: 24-70 mm f/2.8
 #   url: https://...        (optional: makes the answer a link)
 #
+- label: My day job
+  text: Product designer
+- label: My side hustle
+  text: Tattoo artist
+- label: Languages I speak
+  text: Hungarian, English, Spanish and a little Swedish
+- label: My favorite season
+  text: Winter
 - label: My favorite place to hike
   text: The High Tatras
 - label: The longest trek I've done
