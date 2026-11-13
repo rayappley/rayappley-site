@@ -173,7 +173,7 @@ A parkbelépőt és mind a 4 kempinget a [Torres Hike](https://torreshike.com/en
 - **Vadkempingezni tilos.** Csak foglalt, hivatalos kempingben alhatsz. Az ingyenes, a park által működtetett kempingek (például az Italiano) zárva vannak, úgyhogy ne számolj velük.
 - **Foglalj korán.** Mi május elején foglaltunk október közepére. A kisebb kempingek, például a Chileno, gyorsan betelnek.
 - **A buszok nincsenek benne.** A legolcsóbbat a [recorrido.cl](https://www.recorrido.cl) oldalon kerestük.
-- **A katamaránjegyet vedd meg online.** Mi a kikötőben vettük (csak készpénzzel lehetett), de akinek online jegye volt, az szállhatott fel először. Ha tele lett volna a hajó, lehet, hogy mi fel sem fértünk volna.
+- **A katamaránjegyet vedd meg [online](https://catamaranpehoe.com/).** Mi a kikötőben vettük (csak készpénzzel lehetett), de akinek online jegye volt, az szállhatott fel először. Ha tele lett volna a hajó, lehet, hogy mi fel sem fértünk volna.
 
 ## Hogyan jutsz el Torres del Painébe és vissza?
 
@@ -188,7 +188,7 @@ Puerto Natalesbe a legtöbben busszal érkeznek Punta Arenasból vagy El Calafat
 
 **Hazajutás (nyugati oldal):**
 
-1. Katamarán Paine Grandéból a Lago Pehoén át Pudetóig. 56 000 CLP volt kettőnknek. A kikötőben csak készpénzzel fizethetsz, vagy előre megveheted online. Októberben csak napi kétszer járt, főszezonban több járat van, úgyhogy nézd meg az aktuális menetrendet.
+1. Katamarán Paine Grandéból a Lago Pehoén át Pudetóig. 56 000 CLP volt kettőnknek. A kikötőben csak készpénzzel fizethetsz, vagy előre [megveheted online](https://catamaranpehoe.com/). Októberben csak napi kétszer járt, főszezonban több járat van, úgyhogy nézd meg az aktuális menetrendet.
 2. Busz Pudetóból vissza Puerto Natalesbe. A miénk 19:30-kor indult, 22 dollár fejenként.
 
 ## Mennyibe kerül a W Trek?

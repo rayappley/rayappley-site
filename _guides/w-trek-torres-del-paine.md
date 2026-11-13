@@ -170,7 +170,7 @@ We booked the park ticket and all 4 campsites through [Torres Hike](https://torr
 - **Wild camping isn't allowed.** You can only sleep at booked, official campsites. The free park-run campsites (like Italiano) are closed, so don't plan around them.
 - **Book early.** We booked in early May for mid-October. The small campsites, like Chileno, sell out fast.
 - **Buses aren't included.** We searched for the cheapest one on [recorrido.cl](https://www.recorrido.cl).
-- **Buy the catamaran ticket online.** We bought ours at the dock (cash only), but people with online tickets boarded first. If the boat had been full, we might not have gotten on.
+- **Buy the catamaran ticket [online](https://catamaranpehoe.com/).** We bought ours at the dock (cash only), but people with online tickets boarded first. If the boat had been full, we might not have gotten on.
 
 ## How do you get to Torres del Paine and back?
 
@@ -185,7 +185,7 @@ To get to Puerto Natales, most people take a bus from Punta Arenas or El Calafat
 
 **Getting out (west side):**
 
-1. Catamaran from Paine Grande across Lago Pehoé to Pudeto. 56,000 CLP for the two of us. At the dock it's cash only, or you can buy the ticket online in advance. In October it only ran twice a day. In high season there are more sailings, so check the current timetable.
+1. Catamaran from Paine Grande across Lago Pehoé to Pudeto. 56,000 CLP for the two of us. At the dock it's cash only, or you can [buy the ticket online](https://catamaranpehoe.com/) in advance. In October it only ran twice a day. In high season there are more sailings, so check the current timetable.
 2. Bus from Pudeto back to Puerto Natales. Ours left at 19:30, $22 per person.
 
 ## How much does the W Trek cost?
